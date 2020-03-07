@@ -4,7 +4,7 @@ Cordova Framework7 ReactJS
 #Install all dependencies
 - npm install
 
-#Install cordova
+#Install cordova plugins and platforms
 - cordova prepare
 
 #Install concurrently to run multiple tasks with npm
