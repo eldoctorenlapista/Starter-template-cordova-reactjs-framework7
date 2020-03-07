@@ -15,10 +15,14 @@ module.exports = {
         use: ['babel-loader']
       },
       {
-          test: /\.css$/,
-          include: /node_modules/,
-          loaders: ['style-loader', 'css-loader'],
-       }
+        test: /\.css$/,
+        include: [/node_modules/, /components/],
+        loaders: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        loader: "file-loader?name=../../dist/images/[name].[ext]"
+      }
     ]
   },
   resolve: {

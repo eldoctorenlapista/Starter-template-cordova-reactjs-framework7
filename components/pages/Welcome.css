@@ -1,0 +1,10 @@
+.Welcome_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+
+.Welcome_img{
+  width: 200px;
+}
